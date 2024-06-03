@@ -8,10 +8,10 @@ const db = new Sequelize({
   dialect: process.env.DB_DIALECT,
   dialectOptions: {
     timezone: "+05:00",
-    // ssl: {
-    //   require: true,
-    //   rejectUnauthorized: false,
-    // },
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
   },
 });
 module.exports = db;
