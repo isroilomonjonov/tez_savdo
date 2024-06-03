@@ -1,0 +1,20 @@
+{
+    "index": {
+        "start": "Привет и добро пожаловать в бот AliMax - Tashkent!",
+        "afterSelectLanguage": "Вы выбрали русский!",
+        "pleaseSelectNumberMSG": "Отправьте свой номер телефона для регистрации!",
+        "phoneSelectKeyboardText": "Отправьте номер телефона!",
+        "yourPhoneNumberHasAccepted": "Ваш номер принят: ",
+        "setLanguageMsg": "Изменить язык",
+        "afterChangeLanguage": "Бот полностью перехвачен на выбранном вами языке!",
+        "getInfoAboutPhone": "Информация о боте.",
+        "info": "Через этого бота можно пользоваться услугами AliMax, на данный момент наш бот работает в тестовом режиме.",
+        "productsMSG": "Товары!",
+        "goMainMenu": "Вернуться в главное меню",
+        "youAreAtMainMenu": "Вы в главном меню!",
+        "completeOrder": "Заказать!",
+        "createProduct": "Создать продукт!",
+        "basket": "Корзина",
+        "clearCart": "Очистить корзину!"
+    }
+}
