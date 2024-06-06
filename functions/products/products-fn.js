@@ -18,7 +18,12 @@ exports.productsFn = async (bot, msg) => {
         reply_markup: {
           keyboard: [
             ...productButtons,
-            ["\u{1F3E0}" + languages[user?.lang]?.index?.goMainMenu],
+            [
+              { text: "\u{1F3E0}" + languages[user?.lang]?.index?.goMainMenu },
+              {
+                text: "🛒 " + languages[user?.lang]?.index?.basket,
+              },
+            ],
           ],
           resize_keyboard: true,
           one_time_keyboard: false,
