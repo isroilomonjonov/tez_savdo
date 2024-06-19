@@ -8,13 +8,16 @@ exports.productsFn = async (bot, msg) => {
     const user = await getById(chatId);
     const products = await getAllProducts();
     if (products.rows.length === 0) {
-      bot.sendMessage(chatId, "Mahsulotlar mavjud emas.");
+      bot.sendMessage(
+        chatId,
+        languages[user?.lang]?.index?.thereIsNotAnyProducts
+      );
     } else {
       const productButtons = products.rows.map((product) => {
         return [{ text: product.title }];
       });
 
-      bot.sendMessage(chatId, "Mahsulotlar ro'yxati:", {
+      bot.sendMessage(chatId, languages[user?.lang]?.index?.productsList, {
         reply_markup: {
           keyboard: [
             ...productButtons,

@@ -15,6 +15,8 @@
         "completeOrder": "Заказать!",
         "createProduct": "Создать продукт!",
         "basket": "Корзина",
-        "clearCart": "Очистить корзину!"
+        "clearCart": "Очистить корзину!",
+        "productsList": "Список продуктов: ",
+        "thereIsNotAnyProducts": "В настоящее время нет продуктов!"
     }
 }
