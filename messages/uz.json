@@ -1,6 +1,6 @@
 {
     "index": {
-        "start": "Assalom alekum AliMax - Tashkent telegram botga hush kelibsiz!",
+        "start": "Assalom alekum TezSavdo telegram botga hush kelibsiz!",
         "afterSelectLanguage": "Siz o'zbek tilini tanladingiz!",
         "pleaseSelectNumberMSG": "Ro'yhatdan o'tish uchun telefon raqamingizni yuboring!",
         "phoneSelectKeyboardText": "Telefon raqamni jo'natish!",
@@ -8,7 +8,7 @@
         "setLanguageMsg": "Tilni o'zgartirish",
         "afterChangeLanguage": "Bot to'liq siz tanlagan tilga o'g'irildi!",
         "getInfoAboutPhone": "Bot haqida ma'lumot.",
-        "info": "Bu bot orqali AliMax hizmatlaridan foydalanishingiz mumkin, hozirda botimiz testiviy ravishda ishlamoqda.",
+        "info": "Bu bot orqali TezSavdo hizmatlaridan foydalanishingiz mumkin, hozirda botimiz testiviy ravishda ishlamoqda.",
         "productsMSG": "Mahsulotlar!",
         "goMainMenu": "Bosh menuga qaytish",
         "youAreAtMainMenu": "Bosh menu ga qaytdingiz!",
